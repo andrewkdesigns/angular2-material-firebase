@@ -370,7 +370,7 @@ exports = module.exports = __webpack_require__(66)();
 
 
 // module
-exports.push([module.i, ":host {\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    background: no-repeat center/100% 100% url('/assets/bg.jpg');\n    color: #fff;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    font-family: Roboto, \"Helvetica Neue\", sans-serif;\n    height: calc(100vh - 64px);\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n\n:host h1 {\n    font-weight: normal;\n}", ""]);
+exports.push([module.i, ":host {\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    background: no-repeat center/100% 100% url(" + __webpack_require__(735) + ");\n    color: #fff;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    font-family: Roboto, \"Helvetica Neue\", sans-serif;\n    height: calc(100vh - 64px);\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n\n:host h1 {\n    font-weight: normal;\n}", ""]);
 
 // exports
 
@@ -401,7 +401,7 @@ module.exports = module.exports.toString();
 /***/ 690:
 /***/ (function(module, exports) {
 
-module.exports = "<div *ngIf=\"af.auth | async\">\n  <img src=\"{{ (af.auth | async)?.google.photoURL || '/assets/no-photo.gif' }}\" alt=\"{{ (af.auth | async)?.google.displayName }}\" class=\"user\" (click)=\"logout()\" />\n</div>\n<div *ngIf=\"!(af.auth | async)\">\n  <button md-button (click)=\"login()\">Login</button>\n</div>"
+module.exports = "<div *ngIf=\"af.auth | async\">\n  <img src=\"{{ (af.auth | async)?.google.photoURL || '../../assets/no-photo.gif' }}\" alt=\"{{ (af.auth | async)?.google.displayName }}\" class=\"user\" (click)=\"logout()\" />\n</div>\n<div *ngIf=\"!(af.auth | async)\">\n  <button md-button (click)=\"login()\">Login</button>\n</div>"
 
 /***/ }),
 
@@ -426,7 +426,14 @@ module.exports = "<md-card>\n  <h1>Locations</h1>\n  <p>Currently there are {{ (
 
 /***/ }),
 
-/***/ 736:
+/***/ 735:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "bg.f1f7dff3cb2cb05ef31e.jpg";
+
+/***/ }),
+
+/***/ 737:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(453);
@@ -434,5 +441,5 @@ module.exports = __webpack_require__(453);
 
 /***/ })
 
-},[736]);
+},[737]);
 //# sourceMappingURL=main.bundle.js.map
