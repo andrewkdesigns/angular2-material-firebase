@@ -1,15 +1,15 @@
 webpackJsonp([2,4],{
 
-/***/ 455:
+/***/ 471:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(680);
+var content = __webpack_require__(712);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(737)(content, {});
+var update = __webpack_require__(768)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -27,7 +27,7 @@ if(false) {
 
 /***/ }),
 
-/***/ 53:
+/***/ 56:
 /***/ (function(module, exports) {
 
 /*
@@ -84,10 +84,10 @@ module.exports = function() {
 
 /***/ }),
 
-/***/ 679:
+/***/ 711:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(53)();
+exports = module.exports = __webpack_require__(56)();
 // imports
 
 
@@ -99,12 +99,12 @@ exports.push([module.i, ".mat-elevation-z0{box-shadow:0 0 0 0 rgba(0,0,0,.2),0 0
 
 /***/ }),
 
-/***/ 680:
+/***/ 712:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(53)();
+exports = module.exports = __webpack_require__(56)();
 // imports
-exports.i(__webpack_require__(679), "");
+exports.i(__webpack_require__(711), "");
 
 // module
 exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n\nbody {\n    color: #333;\n    margin: 0;\n}", ""]);
@@ -114,7 +114,7 @@ exports.push([module.i, "/* You can add global styles to this file, and also imp
 
 /***/ }),
 
-/***/ 737:
+/***/ 768:
 /***/ (function(module, exports) {
 
 /*
@@ -367,13 +367,13 @@ function updateLink(linkElement, obj) {
 
 /***/ }),
 
-/***/ 742:
+/***/ 773:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(455);
+module.exports = __webpack_require__(471);
 
 
 /***/ })
 
-},[742]);
+},[773]);
 //# sourceMappingURL=styles.bundle.js.map
